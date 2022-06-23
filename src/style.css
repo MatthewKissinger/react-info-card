@@ -41,23 +41,33 @@ body {
     font-weight: 600;
 }
 
-.main {
+main {
     background-color: #282d35;
+    background-image: url("./images/reactjs-icon\ 2.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
     padding: 1rem;
 }
 
 .main--title {
     color: #FFFFFF;
     margin-top: 1rem;
+    letter-spacing: -0.05em;
 }
 
 .main--list {
     color: #FFFFFF;
     padding: 2rem;
     margin-right: 2rem;
+    max-width: 400px;
 }
 
 .main--list > li {
-    margin: .5rem;
+    padding-block: 10px;
+}
+
+.main--list > li::marker {
+    color: #61DAFB;
+    font-size: 1.3rem;
 }
 

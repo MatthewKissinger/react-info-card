@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Main() {
     return (
-        <div className="main">
+        <main>
             <h1 className="main--title">Fun facts about React</h1>
             <ul className="main--list">
                 <li>Was first released in 2013</li>
@@ -11,6 +11,6 @@ export default function Main() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-        </div>
+        </main>
     )
 }
